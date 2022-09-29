@@ -1,0 +1,18 @@
+.configMainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #475569;
+  height: 20vh;
+  align-items: flex-start;
+  padding-left: 3vw;
+}
+
+.configMainHeading {
+  color: white;
+}
+
+.inputContainer {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}

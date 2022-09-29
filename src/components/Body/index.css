@@ -1,0 +1,40 @@
+.bodyMainContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+}
+
+li {
+  list-style: none;
+}
+
+.leftNAvBarMenu {
+  width: 30%;
+  height: 100%;
+  background-color: #cbd5e1;
+  margin: 2px;
+  padding: 2px;
+}
+
+.content {
+  width: 40%;
+  height: 100%;
+  margin: 2px;
+  padding: 2px;
+  background-color: #f1f5f9;
+}
+.rightNAvBarMenu {
+  width: 30%;
+  background-color: #cbd5e1;
+  margin: 2px;
+  padding: 2px;
+}
+
+.addItemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 13vh;
+  margin: 2vh;
+}
