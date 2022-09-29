@@ -5,8 +5,6 @@ import ConfigurationContext from '../../context/ConfigurationContext'
 import './index.css'
 
 class Body extends Component {
-  state = {Content: true, LeftNavbar: true, RightNavbar: true}
-
   leftNavbarMenu = () => (
     <div className="leftNAvBarMenu">
       <p>Left Navbar Menu</p>
