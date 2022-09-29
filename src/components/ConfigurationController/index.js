@@ -14,7 +14,7 @@ class ConfigurationController extends Component {
           } = value
 
           const contentChange = event => {
-            onToggleShowContent(event.target.value)
+            onToggleShowContent(event.target.checked)
           }
           const leftChange = event => {
             onToggleShowLeftNavbar(event.target.checked)

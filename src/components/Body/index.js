@@ -7,7 +7,7 @@ import './index.css'
 class Body extends Component {
   leftNavbarMenu = () => (
     <div className="leftNAvBarMenu">
-      <p>Left Navbar Menu</p>
+      <h1>Left Navbar Menu</h1>
       <ul>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -20,16 +20,16 @@ class Body extends Component {
   content = () => (
     <div className="content">
       <h1>Content</h1>
-      <p>Content description</p>
+      <p>Lorem ipsum</p>
     </div>
   )
 
   rightNavbar = () => (
     <div className="rightNAvBarMenu">
-      <p>Right Navbar Menu</p>
+      <h1>Right Navbar Menu</h1>
       <ul>
-        <li className="addItemContainer">Item 1</li>
-        <li className="addItemContainer">Item 2</li>
+        <li className="addItemContainer">Ad 1</li>
+        <li className="addItemContainer">Ad 2</li>
       </ul>
     </div>
   )
@@ -42,7 +42,6 @@ class Body extends Component {
           const leftView = showLeftNavbar ? this.leftNavbarMenu() : null
           const rightView = showRightNavbar ? this.rightNavbar() : null
           const contentView = showContent ? this.content() : null
-
           return (
             <div className="bodyMainContainer">
               {leftView}
@@ -57,7 +56,3 @@ class Body extends Component {
 }
 
 export default Body
-
-/* {leftView}
-        {this.content()}
-        {this.rightNavbar()} */
